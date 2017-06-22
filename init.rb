@@ -2,7 +2,7 @@
 require 'redmine'
 require 'open-uri'
 
-Redmine::Plugin.register :redmine_wiki_html_util do
+Redmine::Plugin.register :redmine_html_macro do
 	name 'Redmine HTML macro'
 	author 'Ilya Averkov'
 	author_url 'https://github.com/WST/redmine-html-macro'
